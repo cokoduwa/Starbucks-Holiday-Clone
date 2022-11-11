@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/* navigation bar at the top of the page */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    /* border: 1px solid blue; */
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 40%;
+    
+}
+
+.logo {
+    width: 100px;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
+    font-size: .85em;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #268763;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.right-nav p {
+    font-size: .85em;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* wrapper for all the content except for the navigation */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    padding: 4em;
+}
+
+.header p {
+    padding: 2em 7em;
+}
+
+.header p span {
+    text-decoration: underline;
+}
+
+.section {
+    margin: 40px 0;
+}
+
+.header, .part-one, .part-two, .part-five {
+    background-color: #D51B32;
+    color: white;
+} 
+
+.part-three {
+    background-color: #1AB389;
+    color: black;
+}
+
+.part-four {
+    background-color: #1E3932;
+    color: white;
+}
+
+.footer {
+    padding: 2em;
+    font-size: .85em;
+}
+
+.reward {
+    text-decoration: underline;
+}
+
+.second {
+    padding: 1em;
+}
+
+/* styling for the sections to make them the same size.  */
+
+.part-one, .part-two, .part-three, .part-four, .part-five {
+    display: flex;
+}
+
+.part-one img, .part-two img, .part-three img, .part-four img, .part-five img {
+    max-width: 50%;
+}
+
+/* Formatting the text next to the images*/
+
+.vets, .drink, .roll, .native, .gift { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 2em;
+}
+
+/* Font size and styles */
+
+.header h1, .part-one h2, .part-two h2, .part-three h2 {
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.header p, .part-one p, .part-two p, .part-three p {
+    font-size: 1.5rem;
+}
+
+.part-four h3, .part-five h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+.part-four p, .part-five p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+
+}
+
+/* Buttons */
+
+button {
+    font-size: .85em;
+    font-weight: 600;
+    padding: .7em 1.5em;
+    border: 1px solid;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+
+.btn-sign {
+    background-color: white;
+}
+
+.btn-sign:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-join {
+    background-color: black;
+    color: white;
+}
+
+.btn-join:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-our, .btn-order, .btn-listen {
+    background-color: #D51B32;
+    color: white;
+    border: white 1px solid;
+    margin: 2em;
+}
+
+.btn-our:hover, .btn-order:hover, .btn-listen:hover {
+    background-color: white;
+    color: #D51B32;
+}
+
+.btn-roll {
+    background-color: #1AB389;
+    color: black;
+    border: solid 1px;
+    margin: 2em;
+    
+} 
+
+.btn-roll:hover {
+    background-color: black;
+    color: #1AB389;
+}
+
+.btn-learn {
+    background-color: #1E3932;
+    color: white;
+    border: solid white 1px;
+    margin: 2em;
+
+}
+
+.btn-learn:hover {
+    background-color: white;
+    color: #1E3932;
+}
